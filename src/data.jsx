@@ -10,12 +10,11 @@ import {
 import { FiFileText, FiExternalLink } from "react-icons/fi";
 import { SiFramework } from "react-icons/si";
 
-import Work1 from "./assets/fi2.jpeg";
+import Work1 from "./assets/gadget.jpeg";
 import Work2 from "./assets/fi3.jpeg";
-import Work3 from "./assets/fi4.jpeg";
-import Work4 from "./assets/project-4.jpeg";
-import Work5 from "./assets/project-5.jpg";
-import Work6 from "./assets/project-6.jpg";
+import Work3 from "./assets/srm.jpeg";
+import Work4 from "./assets/unnamed.png";
+import Work5 from "./assets/1200px-Onyx_Soundlab.jpeg";
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -223,8 +222,95 @@ export const skills = [
 export const portfolio = [
   {
     id: 1,
+    img: Work4,
+    title: "Auto Store",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Auto Store",
+      },
+      {
+        icon: <SiFramework />,
+        title: "framework : ",
+        desc: "React",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "JavaScript",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview: ",
+        descs: "https://impex-corp.vercel.app/",
+      },
+    ],
+  },
+  {
+    id: 2,
+    img: Work5,
+    title: "Recording Studio",
+    title2: "Web application",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Recording studio",
+      },
+      {
+        icon: <SiFramework />,
+        title: "framework : ",
+        desc: "React",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "JavaScript",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview: ",
+        descs: "https://q-rush-deploy.vercel.app/",
+      },
+    ],
+  },
+
+  {
+    id: 3,
+    img: "https://www.cornwallseawaynews.com/wp-content/uploads/sites/19/2021/04/Depositphotos_460549784_l-2015.jpg",
+    title: "Online Cosmetics Store",
+    title2: "Web application",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Online Cosmetics Store",
+      },
+      {
+        icon: <SiFramework />,
+        title: "framework : ",
+        desc: "React",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "JavaScript",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview: ",
+        descs: "https://www.amway-365.com/",
+      },
+    ],
+  },
+];
+
+export const portfolio2 = [
+  {
+    id: 4,
     img: Work1,
-    title: "Web application",
+    title: "Online Gadget Store",
     details: [
       {
         icon: <FiFileText />,
@@ -243,7 +329,7 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: "Preview : ",
+        title: "Code: ",
         descs: "https://github.com/peaksoft-school/gadgetarium-js9",
       },
       {
@@ -255,7 +341,7 @@ export const portfolio = [
   },
 
   {
-    id: 2,
+    id: 5,
     img: Work2,
     title: "Web application",
     details: [
@@ -276,7 +362,7 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: "Preview : ",
+        title: "Code: ",
         descs:
           "https://github.com/peaksoft-school/task-tracker-js9/tree/feature/column",
       },
@@ -289,9 +375,9 @@ export const portfolio = [
   },
 
   {
-    id: 3,
+    id: 6,
     img: Work3,
-    title: "Web application",
+    title: "CRM-system",
     details: [
       {
         icon: <FiFileText />,
@@ -310,88 +396,8 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: "Preview : ",
+        title: "Code: ",
         descs: "https://github.com/alixandr00/MindMentor",
-      },
-    ],
-  },
-
-  {
-    id: 4,
-    img: Work4,
-    title: "Video Editing",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Video",
-      },
-      {
-        icon: <SiFramework />,
-        title: "Client : ",
-        desc: "Dribble",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Premium",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "www.dribble.com",
-      },
-    ],
-  },
-
-  {
-    id: 5,
-    img: Work5,
-    title: "Landing Page",
-    details: [
-      {
-        title: "Project : ",
-        desc: "Website",
-      },
-      {
-        title: "SiFramework : ",
-        desc: "Dribble",
-      },
-      {
-        title: "Language : ",
-        desc: "React JS, Node JS",
-      },
-      {
-        title: "Preview : ",
-        desc: "www.dribble.com",
-      },
-    ],
-  },
-
-  {
-    id: 6,
-    img: Work6,
-    title: "Photo Editing",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Photo",
-      },
-      {
-        icon: <SiFramework />,
-        title: "Client : ",
-        desc: "Dribble",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Photoshop",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "www.dibble.com",
       },
     ],
   },
