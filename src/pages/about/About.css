@@ -69,6 +69,18 @@
   margin-top: 64px;
 }
 
+@media screen and (max-width: 600px) {
+  .skills__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .skills__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .progress__circle {
   width: 120px;
   height: 120px;

@@ -173,7 +173,7 @@ export const skills = [
   {
     id: 4,
     title: "TypeSrcipt",
-    percentage: "70",
+    percentage: "50",
   },
 
   {
@@ -184,38 +184,32 @@ export const skills = [
 
   {
     id: 6,
-    title: "React Native",
+    title: "Next js",
     percentage: "60",
   },
 
   {
     id: 7,
-    title: "Next js",
-    percentage: "80",
+    title: "Vue.js",
+    percentage: "50",
   },
 
   {
     id: 8,
-    title: "Vue.js",
-    percentage: "60",
-  },
-
-  {
-    id: 9,
     title: "Redux",
     percentage: "100",
   },
 
   {
-    id: 10,
+    id: 9,
     title: "Redux Toolkit",
     percentage: "100",
   },
 
   {
-    id: 11,
+    id: 10,
     title: "React Query",
-    percentage: "90",
+    percentage: "60",
   },
 ];
 
