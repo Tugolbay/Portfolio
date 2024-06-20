@@ -1,13 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
 import { FaArrowRight } from "react-icons/fa";
-import Profile from "../../assets/home.jpg";
+import Tugolbay from "../../assets/Tugolbay1.jpeg";
 import { Link } from "react-router-dom";
 import "./Home.css";
 
 export const Home = () => {
   return (
     <section className="home section grid">
-      <img src={Profile} alt="" className="home__img" />
+      <img src={Tugolbay} alt="" className="home__img" />
       <div className="home__data">
         <h1 className="home__title">
           <span>I'm Tugolbay Kasymbekov.</span>
