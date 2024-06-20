@@ -104,7 +104,7 @@ export const stats = [
 
   {
     id: 2,
-    no: "3+",
+    no: "6+",
     title: "Completed <br /> Projects",
   },
 ];
